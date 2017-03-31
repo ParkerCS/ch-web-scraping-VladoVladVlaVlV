@@ -18,3 +18,4 @@ headers=[[ y.text.strip() for y in x.findAll("td")] for x in soup.find("table").
 
 for i in range(len(headers)):
      print("On ",headers[i][1],"the weather will be",headers[i][2],"with a high of",headers[i][3][0:2],"and a low of",headers[i][3][2:],"with a precipitation chance of",headers[i][4],"and wind of",headers[i][5],"and a humidity of",headers[i][6])
+#comment
